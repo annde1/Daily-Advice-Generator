@@ -7,7 +7,6 @@ const fetchAdvice = async () => {
     let data = await fetch("https://api.adviceslip.com/advice");
     let actualData = await data.json();
     let advice = actualData.slip.advice;
-    console.log(advice);
     counter++;
     textEl.textContent = advice;
     counterEl.innerText = `Advices today: ${counter}`;
