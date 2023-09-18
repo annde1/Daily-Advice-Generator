@@ -15,6 +15,7 @@ body {
 }
 .advice {
   font-size: 2rem;
+  text-align: center;
 }
 .get-adivce-btn {
   width: 7em;
